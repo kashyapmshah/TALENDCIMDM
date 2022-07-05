@@ -13,6 +13,7 @@
     <module>code/beans</module>
     <module>jobs/process/trowgeneratorone_0.1</module>
     <module>jobs/process/tjavatwo_0.1</module>
+    <module>jobs/process/tmessagethree_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
