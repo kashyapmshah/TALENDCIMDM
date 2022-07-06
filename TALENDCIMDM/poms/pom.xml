@@ -2,25 +2,25 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.example.talendcimdm</groupId>
+  <groupId>com.elcompanies.talendcimdm</groupId>
   <artifactId>code.Master</artifactId>
   <version>7.3.1</version>
   <packaging>pom</packaging>
   <name>TALENDCIMDM Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
-    <module>code/beans</module>
-    <module>jobs/process/trowgeneratorone_0.1</module>
     <module>jobs/process/tjavatwo_0.1</module>
     <module>jobs/process/tmessagethree_0.1</module>
+    <module>jobs/process/trowgeneratorone_0.1</module>
+    <module>code/routines</module>
+    <module>code/beans</module>
   </modules>
   <properties>
-    <signer.version>7.3.1</signer.version>
     <talend.project.name>TALENDCIMDM</talend.project.name>
+    <signer.version>7.3.1</signer.version>
     <encoding>UTF-8</encoding>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>

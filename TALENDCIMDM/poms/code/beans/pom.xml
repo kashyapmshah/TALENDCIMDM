@@ -3,12 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.example.talendcimdm</groupId>
+    <groupId>com.elcompanies.talendcimdm</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.3.1</version>
     <relativePath>../../</relativePath>
   </parent>
-  <groupId>org.example.talendcimdm.bean</groupId>
+  <groupId>com.elcompanies.talendcimdm.bean</groupId>
   <artifactId>beans</artifactId>
   <version>7.3.1</version>
   <name>TALENDCIMDM Beans</name>
@@ -17,7 +17,7 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.example.talendcimdm.code</groupId>
+      <groupId>com.elcompanies.talendcimdm.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
